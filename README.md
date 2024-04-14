@@ -1,5 +1,7 @@
 ## LARAVEL logger to telegram chat
 
+Desctiption: sending error or info messages to target telegram chat from laravel application
+
 ###   instalation 
     - composer require doker42/laravel-telegram-log
 
