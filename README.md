@@ -28,9 +28,9 @@ Desctiption: sending error or info messages to target telegram chat from laravel
 
 ###  add data to .env,  telegramBotId, telegramChatId
 
-    TELEGRAM_BOT_TOKEN={token}
-    TELEGRAM_LOG_INFO_CHAT_GROUP_ID={chat_group_id}
-    TELEGRAM_LOG_ERROR_CHAT_GROUP_ID={chat_group_id}
+    TELEGRAM_BOT_TOKEN=<token>
+    TELEGRAM_LOG_INFO_CHAT_GROUP_ID=<chat_group_id>
+    TELEGRAM_LOG_ERROR_CHAT_GROUP_ID=<chat_group_id>
 
 ### basic usage 
 
