@@ -1,0 +1,21 @@
+{
+    "name": "doker42/laravel-telegram-log",
+    "description": "laravel logger to telegram chat",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "doker",
+            "email": "doker42@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "irazasyed/telegram-bot-sdk": "^3.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doker42\\Telegramlog\\": "src"
+        }
+    }
+}
