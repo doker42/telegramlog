@@ -1,6 +1,6 @@
 ## LARAVEL logger to telegram chat
 
-Desctiption: sending error or info messages to target telegram chat from laravel application
+Desctiption: sending error or info messages to target telegram chat from laravel application.  Using two channels (info/error). Possibility use different bots for sending messeges or using only one bot and one chat.
 
 ###   instalation 
     - composer require doker42/laravel-telegram-log
