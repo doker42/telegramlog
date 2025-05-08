@@ -17,5 +17,12 @@
         "psr-4": {
             "Doker42\\Telegramlog\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Doker42\\TelegramLog\\TelegramLogServiceProvider"
+            ]
+        }
     }
 }
