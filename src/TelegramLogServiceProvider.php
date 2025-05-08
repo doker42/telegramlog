@@ -9,7 +9,7 @@ class TelegramLogServiceProvider  extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/telegramlog.php',
+            __DIR__ . '/config/telegramlog.php',
             'telegramlog'
         );
     }
@@ -17,7 +17,7 @@ class TelegramLogServiceProvider  extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../config/telegramlog.php' => config_path('telegramlog.php'),
+            __DIR__ . '/config/telegramlog.php' => config_path('telegramlog.php'),
         ], 'telegramlog');
     }
 }
